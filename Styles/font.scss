@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/Lora-VariableFont_wght.ttf) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans Display';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/NotoSansDisplay-VariableFont.ttf) format('woff');
+  }
+  
+
+  html,
+  input,
+  select,
+  button {
+    font-size: var(--font-base-body-px);
+    font-family: var(--font-family-base);
+  }
+
+  h1,
+  h2,
+  h3 {
+    /* Setjum almennt bil á eftir fyrirsögnum */
+    margin-bottom: var(--spacing);
+  
+    font-family: var(--font-family-heading);
+  }
+  .button {
+    font-family: var(--font-family-base);
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  fieldset legend {
+    font-weight: bold;
+  }
+
+  /* Opnunartími */
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-bottom: var(--spacing);
+  }
+  

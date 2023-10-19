@@ -1,0 +1,35 @@
+
+   /* Almennt */
+  
+   html,
+   input,
+   select,
+   button {
+     font-size: var(--font-base-body-px);
+     font-family: var(--font-family-base);
+   }
+   
+
+   
+   a {
+     color: inherit;
+     background-color: inherit;
+   }
+   
+   img {
+     max-width: 100%;
+   }
+
+     /* Layout */
+  
+  .wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+  
+    /* grid items eru miðjuð */
+    justify-items: center;
+  
+    gap: var(--vertical-space);
+  }
+
